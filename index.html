@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cats</title>
+    <script src="https://kit.fontawesome.com/54c8f9ab37.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/index.css">
+  </head>
+  <body class="page">
+    <header class="header">
+      <div class="container header__container">
+        <a class="logo" href="#">
+          <i class="fa-solid fa-paw fa-2x"></i> Милые котики
+        </a>
+        <button class="btn" id="add"><i class="fa-solid fa-plus"></i></button>
+      </div>
+    </header>
+
+    <main class="main container">
+      <section class="cards">
+        <h2 class="visually-hidden">Список котиков</h2>
+        <div class="card">
+          <img class="card__image" src="https://www.friendforpet.ru/api/sites/default/files/2022-01/064AEBCB-45EC-4CE7-AB13-C65F10F00B7B.jpeg" alt="Изображение">
+          <a href="#" class="card__link"><h3 class="card__name"></h3></a>
+          <button class="card__like" aria-label="Поставить лайк"><i class="fa-solid fa-heart fa-2x"></i></button>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__container">
+        <span class="copyright">© 2022 Made by Ksandr</span>
+        <div class="socials">
+          <a class="socials__link" href="#"><i class="fa-brands fa-github socials__icon"></i></a>
+          <a class="socials__link" href="#"><i class="fa-brands fa-vk socials__icon"></i></a>
+          <a class="socials__link" href="#"><i class="fa-brands fa-telegram socials__icon"></i></a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./script/index.js" defer></script>
+  </body>
+</html>
